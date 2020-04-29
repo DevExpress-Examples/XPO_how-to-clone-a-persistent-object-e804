@@ -1,9 +1,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [CloneHelper.cs](./CS/CloneHelper.cs) (VB: [CloneHelper.vb](./VB/CloneHelper.vb))
-* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-* [ObjectClass.cs](./CS/ObjectClass.cs) (VB: [ObjectClass.vb](./VB/ObjectClass.vb))
+* [CloneHelper.cs](./CS/SimpleObject/CloneHelper.cs) (VB: [CloneHelper.vb](./VB/SimpleObject/CloneHelper.vb))
+* [Form1.cs](./CS/SimpleObject/Form1.cs) (VB: [Form1.vb](./VB/SimpleObject/Form1.vb))
+* [ObjectClass.cs](./CS/SimpleObject/ObjectClass.cs) (VB: [ObjectClass.vb](./VB/SimpleObject/ObjectClass.vb))
 <!-- default file list end -->
 # How to clone a persistent object
 
