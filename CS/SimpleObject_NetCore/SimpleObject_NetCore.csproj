@@ -1,27 +1,21 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\SimpleObject\CloneHelper.cs" Link="CloneHelper.cs" />
     <Compile Include="..\SimpleObject\Form1.cs" Link="Form1.cs" />
     <Compile Include="..\SimpleObject\ObjectClass.cs" Link="ObjectClass.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="..\SimpleObject\Form1.resx" Link="Form1.resx" />
   </ItemGroup>
-
   <ItemGroup>
     <None Include="..\SimpleObject\app.config" Link="app.config" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.3-ctp" />
   </ItemGroup>
-
 </Project>
