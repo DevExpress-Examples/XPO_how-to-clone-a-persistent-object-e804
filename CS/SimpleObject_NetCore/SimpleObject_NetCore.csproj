@@ -16,6 +16,6 @@
     <None Include="..\SimpleObject\app.config" Link="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.10-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.11-ctp" />
   </ItemGroup>
 </Project>
